@@ -1,0 +1,50 @@
+body {
+    all: unset;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(46, 45, 45);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 25%;
+    max-width: 500px;
+    height: 50%;
+    background-color: rgb(255, 160, 17);
+    border-radius: 20px;
+    box-shadow: 70px 50px 120px rgb(66, 43, 7);
+}
+
+h1 {
+    margin: 50px auto;
+    font-family: 'Lucida Sans', sans-serif;
+    color: aliceblue;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    margin: 15px;
+}
+
+input {
+    width: calc(100% - 60%);
+}
+
+ul {
+    font-weight: 600;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+li {
+    color: aliceblue;
+}

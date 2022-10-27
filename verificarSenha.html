@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Verificar Senha</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <section class="container">
+
+        <div class="box">
+
+            <H1>VERIFICADOR DE SENHA</H1>
+            <div class="pergunta">
+                <label for="caixaDeTexto">Qual a Senha? </label>
+                <input type="text" name="senha" id="caixaDeTexto" onkeyup="verificarSenha()">
+            </div>
+            <label for="caixaDeTexto">Sua senha é: <span id="forcaP"> </span></label>
+            <ul>
+                <li id="caracter">Precisa de no minimo 7 caracteres </li>
+                <li id="numero">Precisa de numero</li>
+                <li id="maiuscula">Precisa de letra maiuscula</li>
+                <li id="minuscula">Precisa de letra minúscula</li>
+                <li id="especial">Precisa de um caracter especial </li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
